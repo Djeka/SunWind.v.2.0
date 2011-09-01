@@ -1,0 +1,12 @@
+100	Nx [points]
+5	Ny [points]
+5	Nz [points]
+-0.5	X left down
+-0.025	Y left down
+-0.025	Z left down
+1	Lx
+0.05	Ly
+0.05	Lz
+0.19	X snapshot slice
+0	Y snapshot slice
+0	Z snapshot slice

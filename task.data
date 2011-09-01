@@ -1,0 +1,36 @@
+dump.data	Dump file path
+no	Load dump data [yes, no]
+#--------------------------------------------------------параметры задачи
+70	Nx [points]
+50	Ny [points]
+50	Nz [points]
+-100	X left down [Re]
+-50	Y left down [Re]
+-50	Z left down [Re]
+140	Lx [Re]
+100	Ly [Re]
+100	Lz [Re]
+0.1	X snapshot slice [Re]
+0.1	Y snapshot slice [Re]
+0.1	Z snapshot slice [Re]
+0.5	Splitting deep measure
+-8.0e25	Магнитный диполь [Гс*см^3]
+3.0	Радиус нижней границы (вокруг земли) [Re]
+#--------------------------------------------------------параметры солнечного ветра (СВ)
+#used data from: http://ccmc.gsfc.nasa.gov/database_MHD/Martin_Connors_060910_1.php
+sw.data	File with sw data per time
+yes	load sw data from file [yes, no]
+0	Ось по которой течет СВ [0-X; 1-Y; 2-Z]
+1	Сторона из которой втекает СВ [0-back; 1-forward]
+3.91	Концентрация СВ [см^-3]
+177893.71	Температура СВ [K]
+-517.58	Скорость СВ по оси X [км/c]
+-21.34	Скорость СВ по оси Y [км/c]
+3.49	Скорость СВ по оси Z [км/c]
+4.0e-5	Interplanetary Magnetic Field (IMF) по оси X [Гс]
+-3.0e-5	IMF по оси Y [Гс]
+1.28e-5	IMF по оси Z [Гс]
+#--------------------------------------------------------параметры MPI
+1
+1
+1
